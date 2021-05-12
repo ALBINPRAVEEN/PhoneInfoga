@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     if: contains(toJson(github.event.commits), '[action]') == false
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
       - name: Publish to Registry
         id: publish
         uses: elgohr/Publish-Docker-Github-Action@3.02
@@ -19,7 +19,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           tags: "latest,v2,stable"
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
         with:
           ref: 'master'
 
