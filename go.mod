@@ -7,7 +7,7 @@ require (
 	github.com/fatih/color v1.13.0
 	github.com/gin-gonic/gin v1.7.0
 	github.com/joho/godotenv v1.4.0
-	github.com/nyaruka/phonenumbers v1.1.0
+	github.com/nyaruka/phonenumbers v1.1.4
 	github.com/onlinecity/go-phone-iso3166 v0.0.1
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/cobra v1.1.3
