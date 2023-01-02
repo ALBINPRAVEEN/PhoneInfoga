@@ -15,7 +15,7 @@ require (
 	github.com/sundowndev/dorkgen v1.3.1
 	github.com/swaggo/swag v1.7.0
 	google.golang.org/api v0.92.0
-	gopkg.in/h2non/gock.v1 v1.0.16
+	gopkg.in/h2non/gock.v1 v1.1.2
 )
 
 require (
